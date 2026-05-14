@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const PLAN_START = new Date("2026-05-14");
+const PLAN_START = new Date(2026, 4, 14); // May 14 local time - avoids UTC offset bug
 const DAY_SEQUENCE = ["Legs","Push","Pull","Legs","Push","Pull","Rest"];
 
 const phases = [
